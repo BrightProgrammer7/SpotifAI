@@ -1,6 +1,6 @@
 Generate any podcast idea in your mind in one click
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=brightprogrammer7/?reponame=spotifai&label=Repository%20views&color=0e75b6&style=flat" alt="SpotifAI" /> </p>
-https://github.com/BrightProgrammer7/SpotifAI/graphs/traffic
+
+[![Image of https://github.com/PVUL/repo-views-counter](https://github.com/PVUL/repo-views-counter/blob/master/svg/profile/badge.svg)](https://github.com/PVUL/repo-views-counter)
 
 Make your podcast passion come to reality just type your idea in prompt and our website made the magic by generate a podcast suitable to your idea with text and sound format. Don't wait try it Now.
 
