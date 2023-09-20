@@ -1,0 +1,155 @@
+/**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+  * WHAT IS THIS FILE?
+  *
+  * Globally applied styles. No matter which components are in the page or matching route,
+  * the styles in here will be applied to the Document, without any sort of CSS scoping.
+  *
+  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+body {
+  line-height: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  line-height: inherit;
+}
+
+@layer components {
+  .menu-item {
+    @apply flex-box bg-slate-900 sm:flex-col lg:flex-row p-2 md:mx-3 mx-1 text-slate-50 text-base font-normal cursor-pointer rounded hover:text-slate-900 hover:bg-white uppercase;
+  }
+  .flex-box {
+    @apply flex items-center justify-center;
+  }
+
+  .team-img {
+    @apply rounded-full w-44 h-44 border-black;
+  }
+
+  .chat-message.chatgpt {
+    @apply bg-secondary;
+  }
+}
+
+.chatbox {
+  flex: 0.8;
+  /* background-color: #343541; */
+  position: relative;
+  /* width: 100%; */
+  overflow-y: scroll;
+
+}
+
+.chat-log {
+  text-align: left;
+  /* overflow-y: scroll; */
+  /* flex: 0.8; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.chat-input-holder {
+  padding: 3%;
+  flex: 0.2;
+  height: 10vh;
+}
+.form {
+  /* width: 100%;
+  height: 100%; */
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.input {
+  background-color: transparent;
+  width: 100%;
+  /* border-radius: 5px; */
+  border-color: none;
+  /* padding: 12px; */
+  outline: none;
+  border: none;
+  font-size: 1.25em;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.chat-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 0;
+}
+.chat-message-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  background: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.avatar.chatgpt {
+  /* background: #0da37f; */
+  background: transparent;
+  /* border-radius: 50%; */
+}
+
+.message {
+  padding: 0 8% 0 4%;
+  flex: 0.9;
+}
+
+@media (max-width: 720px) {
+  .side-menu-button span {
+    padding-right: 0;
+  }
+  .side-menu-button p {
+    display: none;
+  }
+}
+
+.dp {
+  pointer-events: none;
+}
+
+button:disabled {
+  background-color: #000000;
+  color: #999; 
+  cursor: not-allowed;
+}
