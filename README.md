@@ -1,6 +1,6 @@
 Generate any podcast idea in your mind in one click
 
-[![Image of https://github.com/PVUL/repo-views-counter](https://github.com/PVUL/repo-views-counter/blob/master/svg/profile/badge.svg)](https://github.com/BrightProgrammer7/SpotifAI)
+[![Image of https://github.com/BrightProgrammer7/SpotifAI](https://github.com/PVUL/repo-views-counter/blob/master/svg/profile/badge.svg)](https://github.com/BrightProgrammer7/SpotifAI)
 
 Make your podcast passion come to reality just type your idea in prompt and our website made the magic by generate a podcast suitable to your idea with text and sound format. Don't wait try it Now.
 
